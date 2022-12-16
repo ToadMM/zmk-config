@@ -7,10 +7,10 @@ config BOARD_ENABLE_DCDC
 	depends on BOARD_BT60
 
 config ZMK_IDLE_TIMEOUT
-	int 30000
+	int '30000'
 	
 config ZMK_SLEEP
-	bool y
+	bool 'y'
 	
 config ZMK_IDLE_SLEEP_TIMEOUT
-	int 900000
+	int '900000'
