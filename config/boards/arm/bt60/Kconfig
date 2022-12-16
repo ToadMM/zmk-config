@@ -13,4 +13,4 @@ config ZMK_SLEEP
 	bool y
 	
 config ZMK_IDLE_SLEEP_TIMEOUT
-	INT 900000
+	int 900000
